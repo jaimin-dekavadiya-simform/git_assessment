@@ -14,6 +14,8 @@ Below is a screenshot representing the Flow and Structure of Repository:
 
 ## Branch Operations
 
+- Created a template repository. Using that created a Assessment Repository.
+- commit-msg Hook is modified to only accept commit-message which starts with ZOHO_TASK_ID (i.e. "TE_T102 initial commit")
 - TE-T102 is created with multiple commits and rebased on develop.
 - TE-T103 is created with multiple commits and Squashed on develop.
 - TE-T201 is created with one readme commit.
