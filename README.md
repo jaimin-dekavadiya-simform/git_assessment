@@ -151,7 +151,7 @@ git push origin main
 
 - `git reflog`:  It records every change to the repository, even if not present in commit history. we can use it to undo deleted commits or checkout to any old commits that are not present in current history.  
 - `git stash`:    Stash takes a snapshot of working directory and saves it locally. It behaves like a stack, We can push and pop snapshots of working directory. Useful when we don't want to commit our changes yet and want to work on something else.
-
+- `git revert`: It creates another commit, which does exact opposit of changes done in previous commit. Therefore end state will be same as previous commit. It is used to undo the current commit without deleteing the commit in history.
 
 
 
